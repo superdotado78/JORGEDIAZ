@@ -50,10 +50,7 @@ else:
         m[i][2] = m[i][1]
         m[i][1] = m[i][0]
         m[i][0]=k
-    else:
-        k = m[i][2]
-        m[i][2] = m[i][1]
-        m[i][1] = k
+
 print(m)
 
 
