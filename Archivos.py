@@ -8,7 +8,7 @@ my_notes.write("Línea 1: Esto es una prueba.\n")
 my_notes.write("Línea 2: Escribiendo en archivos con Python.\n")
 
 # Método writelines(): escribir una lista de líneas
-lineas = ["Línea 3: Otro ejemplo.\n", "Línea 4: Finalizando el ejemplo1.\n"]
+lineas = ["Línea 3: Otro ejemplo.\n", "Línea 4: Finalizando el ejemplo.\n"]
 my_notes.writelines(lineas)
 
 my_notes.close()
